@@ -320,25 +320,25 @@ namespace ClassicUO.Game.UI.Gumps.Login
 
             //Add(new NiceButton(){ });
 
-            Add
-            (
-                new HtmlControl
-                (
-                    htmlX, htmlY, 150, 15, false, false, false,
-                    "<body link=\"#ad9413\" vlink=\"#00FF00\" ><a href=\"https://www.paypal.me/muskara\">Click to donate PayPal",
-                    0x32, true, isunicode: true, style: FontStyle.BlackBorder
-                )
-            );
-
-            Add
-            (
-                new HtmlControl
-                (
-                    htmlX, htmlY + 20, 150, 15, false, false, false,
-                    "<body link=\"#ad9413\" vlink=\"#00FF00\" ><a href=\"https://www.patreon.com/classicuo\">Become a Patreon!",
-                    0x32, true, isunicode: true, style: FontStyle.BlackBorder
-                )
-            );
+          //  Add
+          //  (
+          //      new HtmlControl
+          //      (
+          //          htmlX, htmlY, 150, 15, false, false, false,
+          //          "<body link=\"#ad9413\" vlink=\"#00FF00\" ><a href=\"https://www.paypal.me/muskara\">Click to donate PayPal",
+          //          0x32, true, isunicode: true, style: FontStyle.BlackBorder
+          //      )
+          //  );
+          //
+          //  Add
+          //  (
+          //      new HtmlControl
+          //      (
+          //          htmlX, htmlY + 20, 150, 15, false, false, false,
+          //          "<body link=\"#ad9413\" vlink=\"#00FF00\" ><a href=\"https://www.patreon.com/classicuo\">Become a Patreon!",
+          //          0x32, true, isunicode: true, style: FontStyle.BlackBorder
+          //      )
+          //  );
 
 
             Add
@@ -346,7 +346,7 @@ namespace ClassicUO.Game.UI.Gumps.Login
                 new HtmlControl
                 (
                     505, htmlY, 100, 15, false, false, false,
-                    "<body link=\"#ad9413\" vlink=\"#00FF00\" ><a href=\"https://www.classicuo.eu\">Website", 0x32,
+                    "<body link=\"#ad9413\" vlink=\"#00FF00\" ><a href=\"https://www.uomultima.com\">Website", 0x32,
                     true, isunicode: true, style: FontStyle.BlackBorder
                 )
             );
@@ -356,7 +356,7 @@ namespace ClassicUO.Game.UI.Gumps.Login
                 new HtmlControl
                 (
                     505, htmlY + 19, 100, 15, false, false, false,
-                    "<body link=\"#ad9413\" vlink=\"#00FF00\" ><a href=\"https://discord.gg/VdyCpjQ\">Join Discord",
+                    "<body link=\"#ad9413\" vlink=\"#00FF00\" ><a href=\"https://discord.gg/BjbJ6pQB\">Join Discord",
                     0x32, true, isunicode: true, style: FontStyle.BlackBorder
                 )
             );
